@@ -16,11 +16,12 @@ The main objective of this fork is to create and adapt intelligent agents that a
 - `backend/`: Core API and agent logic
 - `frontend/`: User interface for interacting with agents
 - `master-agent/`, `router/`, `genai_agents_example/`: Specialized agents and orchestration modules
-- `crewai-a2a-server/`: HackLab-bio Agents A2A enabled
+- `crewai-a2a-server/`: [HackLab-bio Agents A2A](https://github.com/palmedicoai/hacklab-bio/tree/main/crewai-a2a-server) 
 
 ## Overwall Architecture 
 
-<img width="1415" height="899" alt="image" src="https://github.com/user-attachments/assets/44606ff3-7a51-45b3-8d0f-fab4a5ae95fe" />
+<img width="3457" height="2159" alt="HacklabBio" src="https://github.com/user-attachments/assets/2406d3b1-f7d7-4f35-b56b-8e3bd6d337fa" />
+
 
 ## Example uses
 
