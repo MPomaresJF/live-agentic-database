@@ -1,10 +1,9 @@
-# 🧪🧬💻 HackLab-Bio
-![hacklabBio](https://github.com/user-attachments/assets/f899b123-8dd1-4990-9132-d84131bc7881)
+# 🧪🧬💻 LIVE! Database
 
-This repository contains the development of an agentic AI system designed to accelerate research workflows in cellular longevity. This work is the implementation for a Master's Thesis and is built upon the GenAI-AgentOS framework (forked from [genai-works-org/genai-agentos](https://github.com/genai-works-org/genai-agentos)).
+This repository contains the development of an agentic AI system designed to understand diferents Longevity Interventions. This work is the implementation for Hackaging Hackathon and is built upon the GenAI-AgentOS framework and hacklab-bio (forked from [genai-works-org/genai-agentos](https://github.com/genai-works-org/genai-agentos)).
 ## Objective
 
-The main objective of this fork is to create and adapt intelligent agents that automate and optimize tasks in cellular longevity research, supporting faster experimentation, data analysis, and scientific discovery.
+The main objective of this fork is to create and adapt intelligent agents that help people to understand the wide Longevity intervention based on scientific evidence.
 ## Features
 
 - Modular agent architecture for research automation
