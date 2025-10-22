@@ -43,7 +43,8 @@ Create and adapt intelligent agents to help users understand longevity intervent
 - `tests/`: Pytest-based test suite
 
 ## Architecture
-<img width="1774" height="1056" alt="image" src="https://github.com/user-attachments/assets/b0115079-8b11-4184-83cd-3c189f9c51ce" />
+<img width="1767" height="1054" alt="image" src="https://github.com/user-attachments/assets/715ad468-c12a-40b7-a2d2-b09ccf2eead4" />
+
 <img width="1772" height="1057" alt="image" src="https://github.com/user-attachments/assets/e560c9c8-eee9-4964-b634-547f3d7038be" />
 
 ```mermaid
