@@ -43,7 +43,15 @@ Create and adapt intelligent agents to help users understand longevity intervent
 - `tests/`: Pytest-based test suite
 
 ## Architecture
-<img width="1767" height="1054" alt="image" src="https://github.com/user-attachments/assets/715ad468-c12a-40b7-a2d2-b09ccf2eead4" />
+Reusing cdebase and plug and play 
+
+<img width="1766" height="1053" alt="image" src="https://github.com/user-attachments/assets/e9e74315-03ad-4f57-9f28-c859495d5fd4" />
+
+Keep interoperability
+
+<img width="875" height="491" alt="image" src="https://github.com/user-attachments/assets/61811821-942d-4bb0-9550-b85d37ec7141" />
+
+Deploy everywhere
 
 <img width="1772" height="1057" alt="image" src="https://github.com/user-attachments/assets/e560c9c8-eee9-4964-b634-547f3d7038be" />
 
