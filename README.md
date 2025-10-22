@@ -83,6 +83,20 @@ sequenceDiagram
 - Intervention analysis and evidence review
 - Hypothesis generation from multi-agent artifacts
 
+Chating with assistant
+<img width="1844" height="935" alt="image" src="https://github.com/user-attachments/assets/01256057-665f-4e4d-8f22-4cfb4d3cb3c3" />
+
+Agent Traces and observability
+<img width="1866" height="904" alt="image" src="https://github.com/user-attachments/assets/ca603aa5-cb3f-476e-a58a-5d3c7786cd8c" />
+
+Adding A2A Agents
+
+<img width="1839" height="868" alt="image" src="https://github.com/user-attachments/assets/8cc62275-2002-44fb-bdc7-83ea720c424d" />
+
+Adding MCP Tools
+
+<img width="1862" height="412" alt="image" src="https://github.com/user-attachments/assets/efdc5da1-dc13-422d-a597-b9669ab3eabe" />
+
 ## Supported Agent Types
 
 | Agent Type       | Description                                                                                   |
@@ -223,7 +237,6 @@ The system supports multiple kinds of Agents:
 
 | Agent Type       | Description                                                                                   |
 |------------------|-----------------------------------------------------------------------------------------------|
-| **GenAI Agents** | Connected via [`genai-protocol`](https://pypi.org/project/genai-protocol/) library interface. |
 | **MCP Servers**  | MCP (Model Context Protocol) servers can be added by pasting their URL in the UI.             |
 | **A2A Servers**  | A2A (Agent to Agent Protocol) servers can be added by pasting their URL in the UI.            |
 
