@@ -147,12 +147,12 @@ const AuthForm: FC<AuthFormProps> = ({
         <span className="w-full h-px bg-neutral-border" />
       </p>
 
-      {/* <div className="mt-4 flex justify-center gap-2">
+      <div className="mt-4 flex justify-center gap-2">
         <p className="font-medium text-text-light">{footerText}</p>
         <Button variant="link" size="link" asChild>
           <Link to={footerLinkTo}>{footerLinkText}</Link>
         </Button>
-      </div> */}
+      </div>
     </div>
   );
 };
