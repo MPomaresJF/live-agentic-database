@@ -1,6 +1,13 @@
-# 🧬 LIVE! Database💻🧪
+# 🧬 LIVE! Agentic Database💻🧪
+Longivity Interventions Verified Evidence Database
+ 
+# By Longevity PRO Hackers (LPH)
+Ishika Tawer, 
+Juan Martinez Pomares,
+J.P Medved
 
-This repository contains the development of an agentic AI system designed to understand diferents Longevity Interventions. This work is the implementation for Hackaging Hackathon and is built upon the GenAI-AgentOS framework and hacklab-bio (forked from [genai-works-org/genai-agentos](https://github.com/genai-works-org/genai-agentos)).
+
+This repository contains the development of an agentic AI system designed to understand diferents Longevity Interventions. This work is the implementation for [Hackaging](https://www.hackaging.ai/) Hackathon and is built upon the GenAI-AgentOS framework and hacklab-bio (forked from [genai-works-org/genai-agentos](https://github.com/genai-works-org/genai-agentos)).
 # Overview
 
 This repository implements a modular, agentic AI system for longevity intervention research, built for the Hackaging Hackathon. It is based on the GenAI-AgentOS framework and integrates multiple agent types, orchestration modules, and biomedical tools. The system enables:
@@ -32,10 +39,12 @@ Create and adapt intelligent agents to help users understand longevity intervent
 - `router/`: WebSocket server for agent registration and message routing
 - `cli/`: Command-line interface for agent/user management
 - `crewai-a2a-server/`: CrewAI-based biomedical multi-agent system (A2A protocol)
-- `live-a2a-server/`: CrewAI-based agents for live/judge biomedical queries
+- `live-a2a-server/`: [LIVE! Agents for live/judge biomedical queries](https://github.com/MPomaresJF/live-agentic-database/blob/main/live-a2a-server/README.md)
 - `tests/`: Pytest-based test suite
 
 ## Architecture
+<img width="1774" height="1056" alt="image" src="https://github.com/user-attachments/assets/b0115079-8b11-4184-83cd-3c189f9c51ce" />
+<img width="1772" height="1057" alt="image" src="https://github.com/user-attachments/assets/e560c9c8-eee9-4964-b634-547f3d7038be" />
 
 ```mermaid
 sequenceDiagram
