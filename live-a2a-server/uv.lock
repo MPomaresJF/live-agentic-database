@@ -991,7 +991,7 @@ wheels = [
 ]
 
 [[package]]
-name = "hacklab-bio-agents-a2a"
+name = "live-agents-a2a"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

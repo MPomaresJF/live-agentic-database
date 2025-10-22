@@ -24,13 +24,6 @@ class MissingAPIKeyError(Exception):
 @click.option("--port", "port", default=10006)
 def main(host, port):
     try:
-        if not os.getenv("GOOGLE_API_KEY") and not os.getenv(
-            "GOOGLE_GENAI_USE_VERTEXAI"
-        ):
-            raise MissingAPIKeyError(
-                "GOOGLE_API_KEY or Vertex AI environment variables not set."
-            )
-
         capabilities = AgentCapabilities(streaming=False)
         skill = AgentSkill(
             id="judge_agent",

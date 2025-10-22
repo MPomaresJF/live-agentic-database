@@ -40,6 +40,7 @@ class JudgeAgent:
             self.model = LLM(
                 model="gemini/gemini-2.5-flash",
                 api_key=os.getenv("GOOGLE_API_KEY"),
+                max_completion_tokens=5000,
             )
         else:
             self.model = LLM(model="gpt-4o")
@@ -107,6 +108,7 @@ class LiveAgent:
             self.model = LLM(
                 model="gemini/gemini-2.5-flash",
                 api_key=os.getenv("GOOGLE_API_KEY"),
+                max_completion_tokens=5000,
             )
         else:
             self.model = LLM(model="gpt-4o")
