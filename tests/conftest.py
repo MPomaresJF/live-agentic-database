@@ -59,11 +59,11 @@ class HttpClient:
         return await self._request("DELETE", path, **kwargs)
 
 
-http_client = HttpClient(base_url="http://localhost:8000")
+http_client = HttpClient(base_url="http://34.9.117.132:8000")
 
 
 def _construct_db_uri():
-    return "postgresql+asyncpg://postgres:postgres@0.0.0.0:5432/postgres"
+    return "postgresql+asyncpg://postgres:postgres@34.9.117.132:5432/postgres"
 
 
 @pytest.fixture(scope="session")

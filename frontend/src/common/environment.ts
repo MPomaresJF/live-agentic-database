@@ -4,6 +4,6 @@ const getEnvVar = (key: string, defaultValue: string): string => {
 };
 
 export const environment = {
-  apiBaseUrl: getEnvVar('API_URL', 'http://localhost:8000'),
-  wsBaseUrl: getEnvVar('WS_URL', 'ws://localhost:8000'),
+  apiBaseUrl: getEnvVar('API_URL', 'http://34.9.117.132:8000'),
+  wsBaseUrl: getEnvVar('WS_URL', 'ws://34.9.117.132:8000'),
 }; 
