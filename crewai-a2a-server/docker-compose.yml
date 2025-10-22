@@ -2,29 +2,29 @@ version: '3.8'
 services:
   genomic-a2a:
     build: .
-    command: [".venv/bin/python", "main_genomic.py", "--host", "0.0.0.0", "--port", "7000"]
+    command: [".venv/bin/python", "main_genomic.py", "--host", "0.0.0.0", "--port", "7003"]
     ports:
-      - "7000:7000"
+      - "7003:7003"
     environment:
       - GOOGLE_API_KEY=${GOOGLE_API_KEY}
   hypothesis-a2a:
     build: .
-    command: [".venv/bin/python", "main_hypothesis.py", "--host", "0.0.0.0", "--port", "7001"]
+    command: [".venv/bin/python", "main_hypothesis.py", "--host", "0.0.0.0", "--port", "7004"]
     ports:
-      - "7001:7001"
+      - "7004:7004"
     environment:
       - GOOGLE_API_KEY=${GOOGLE_API_KEY}
   literature-a2a:
     build: .
-    command: [".venv/bin/python", "main_literature.py", "--host", "0.0.0.0", "--port", "7002"]
+    command: [".venv/bin/python", "main_literature.py", "--host", "0.0.0.0", "--port", "7005"]
     ports:
-      - "7002:7002"
+      - "7005:7005"
     environment:
       - GOOGLE_API_KEY=${GOOGLE_API_KEY}
   pathway-a2a:
     build: .
-    command: [".venv/bin/python", "main_pathway.py", "--host", "0.0.0.0", "--port", "7003"]
+    command: [".venv/bin/python", "main_pathway.py", "--host", "0.0.0.0", "--port", "7006"]
     ports:
-      - "7003:7003"
+      - "7006:7006"
     environment:
       - GOOGLE_API_KEY=${GOOGLE_API_KEY}
