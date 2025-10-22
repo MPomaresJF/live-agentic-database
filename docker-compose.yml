@@ -12,8 +12,8 @@ services:
     env_file: .env
     environment:
       - NODE_ENV=production
-      - VITE_API_URL=http://backend:8000
-      - VITE_WS_URL=ws://backend:8000
+      - VITE_API_URL=http://34.9.117.132:8000
+      - VITE_WS_URL=ws://34.9.117.132:8000
     networks:
      - local-genai-network
     restart: unless-stopped
